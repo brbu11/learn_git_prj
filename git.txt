@@ -1,0 +1,15 @@
+$ git init
+$ git add .
+$ git status   # add 됐나 확인
+$ git commit -m '짧고 간결한 현재형'
+
+
+# github, bitbucket, gitlab etc.. remote repo를 생성
+$ git remote add origin <REMOTE REPO URL.git>
+$ git push (-u origin master) #첫 번째만
+
+# 다른 컴퓨터라면 
+$ git clone <REMOTE REPO URL.git> # downlodaZIP => .git 없음
+# 작업작업
+$ git add . && git commit -m 'MSG' && git push
+$ git pull
