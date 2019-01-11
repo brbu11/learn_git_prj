@@ -1,3 +1,4 @@
+#basic workflow
 $ git init
 $ git add .
 $ git status   # add 됐나 확인
